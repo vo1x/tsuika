@@ -10,7 +10,7 @@ I built this because I find myself nuking my Windows installation every 6 months
 - **Clean Interface**: Modern UI built with Next.js and styled with Rosé Pine theme
 - **Easy to Use**: Simple, intuitive interface for selecting and installing applications
 
-## Getting Started
+## Development setup
 
 ### Prerequisites
 
