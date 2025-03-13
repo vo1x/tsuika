@@ -1,0 +1,82 @@
+import { App } from "@/types";
+
+import { useSelectionStore } from "@/stores/selectedAppsStore";
+
+import { generateAndDownloadBatchFile } from "@/lib/utils";
+
+import { X, Package } from "lucide-react";
+
+export const Selections = () => {
+  const selectedApps = useSelectionStore((state) => state.selectedApps);
+  const clearSelected = useSelectionStore((state) => state.clearSelected);
+
+  const handleInstallApps = () => {
+    generateAndDownloadBatchFile({ selectedApps });
+    // add sonner for error handling later
+  };
+
+  return (
+    <div className="bg-rosePine-surface border-b border-rosePine-highlight-low p-4 mt-4 mr-4 rounded-lg">
+      <div className="flex items-center justify-between">
+        <h2 className="text-lg font-medium">
+          Selected Apps ({selectedApps.length})
+        </h2>
+
+        {selectedApps.length > 0 && (
+          <button
+            onClick={clearSelected}
+            className="text-rosePine-subtle hover:text-rosePine-love flex items-center gap-1 text-sm"
+          >
+            <X size={14} /> Clear all
+          </button>
+        )}
+      </div>
+
+      {selectedApps.length > 0 ? (
+        <div className="mt-2 flex flex-wrap gap-2">
+          {selectedApps.map((app) => (
+            <Selection app={app} />
+          ))}
+        </div>
+      ) : (
+        <p className="mt-2 text-rosePine-subtle text-sm">
+          No applications selected
+        </p>
+      )}
+
+      {selectedApps.length > 0 && (
+        <button
+          onClick={handleInstallApps}
+          className="mt-4 bg-rosePine-iris text-rosePine-base px-4 py-2 rounded flex items-center gap-2 hover:bg-opacity-90 transition-opacity"
+        >
+          <Package size={16} />
+          Install Selected Apps
+        </button>
+      )}
+    </div>
+  );
+};
+
+const Selection = ({ app }: { app: App }) => {
+  const unselectApp = useSelectionStore((state) => state.unselectApp);
+
+  const handleAppDeselect = (app: App) => {
+    if (!app.id) return;
+
+    unselectApp(app.id);
+  };
+  return (
+    <div
+      key={app.id}
+      className="bg-rosePine-highlight-med text-rosePine-text px-3 py-1 rounded-full text-sm flex items-center gap-1"
+    >
+      <span>{app.name}</span>
+      <button
+        onClick={() => handleAppDeselect(app)}
+        className="ml-1 text-rosePine-subtle hover:text-rosePine-love"
+      >
+        <X size={12} />
+      </button>
+    </div>
+  );
+};

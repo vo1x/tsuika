@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #44415a #2a273f; /* Using hardcoded colors as fallback */
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #2a273f; /* Hardcoded rosePine-surface */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #44415a; /* Hardcoded rosePine-highlight-med */
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #56526e; /* Hardcoded rosePine-highlight-high */
+}
+
+:root {
+  --rosePine-base: #232136;
+  --rosePine-surface: #2a273f;
+  --rosePine-overlay: #393552;
+  --rosePine-muted: #6e6a86;
+  --rosePine-subtle: #908caa;
+  --rosePine-text: #e0def4;
+  --rosePine-love: #eb6f92;
+  --rosePine-gold: #f6c177;
+  --rosePine-rose: #ea9a97;
+  --rosePine-pine: #3e8fb0;
+  --rosePine-foam: #9ccfd8;
+  --rosePine-iris: #c4a7e7;
+  --rosePine-highlight-low: #2a283e;
+  --rosePine-highlight-med: #44415a;
+  --rosePine-highlight-high: #56526e;
+}
+
+@theme inline {
+  --color-rosePine-base: var(--rosePine-base);
+  --color-rosePine-surface: var(--rosePine-surface);
+  --color-rosePine-overlay: var(--rosePine-overlay);
+  --color-rosePine-muted: var(--rosePine-muted);
+  --color-rosePine-subtle: var(--rosePine-subtle);
+  --color-rosePine-text: var(--rosePine-text);
+  --color-rosePine-love: var(--rosePine-love);
+  --color-rosePine-gold: var(--rosePine-gold);
+  --color-rosePine-rose: var(--rosePine-rose);
+  --color-rosePine-pine: var(--rosePine-pine);
+  --color-rosePine-foam: var(--rosePine-foam);
+  --color-rosePine-iris: var(--rosePine-iris);
+  --color-rosePine-highlight-low: var(--rosePine-highlight-low);
+  --color-rosePine-highlight-med: var(--rosePine-highlight-med);
+  --color-rosePine-highlight-high: var(--rosePine-highlight-high);
+}
+
+body {
+  background: var(--rosePine-base);
+  color: var(--rosePine-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
