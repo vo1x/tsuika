@@ -9,6 +9,7 @@ import { useSelectionStore } from "@/stores/selectedAppsStore";
 import { App } from "@/types";
 
 import { Selections } from "@/components/selections";
+import { Application } from "@/components/application-card";
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -135,42 +136,9 @@ export default function Home() {
           {filteredApps[selectedCategory]?.length > 0 ? (
             <>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {filteredApps[selectedCategory].map((app) => {
-                  const isSelected = selectedApps.some(
-                    (selectedApp) => selectedApp.id === app.id
-                  );
-
-                  return (
-                    <div
-                      key={app.id}
-                      onClick={() => handleAppSelect(app, selectedCategory)}
-                      className={`p-4 rounded-lg cursor-pointer transition-colors ${
-                        isSelected
-                          ? "bg-rosePine-highlight-med"
-                          : "border-rosePine-highlight-low hover:bg-rosePine-highlight-low"
-                      }`}
-                    >
-                      <div className="flex items-center">
-                        <span
-                          className={`w-5 h-5 border rounded flex items-center justify-center ${
-                            isSelected
-                              ? "bg-rosePine-iris border-rosePine-iris"
-                              : "border-rosePine-muted"
-                          }`}
-                        >
-                          {isSelected && (
-                            <span className="text-rosePine-base">
-                              <Check size={14} />
-                            </span>
-                          )}
-                        </span>
-                        <span className="ml-3 font-medium">
-                          {app.name || app.id}
-                        </span>
-                      </div>
-                    </div>
-                  );
-                })}
+                {filteredApps[selectedCategory].map((app) => (
+                  <Application app={app} selectedCategory={selectedCategory} />
+                ))}
               </div>
             </>
           ) : (

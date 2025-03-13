@@ -5,6 +5,9 @@ export interface App {
   winget?: string;
   choco?: string;
   link?: string;
+  icon?: string;
+  description?: string;
+  publisher?: string;
 }
 
 export interface ApplicationsData {
