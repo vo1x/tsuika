@@ -10,7 +10,6 @@ export const Application = ({
   app: App;
   selectedCategory: string;
 }) => {
-  const [isHoveringPopup, setIsHoveringPopup] = useState(false);
   const [isInfoOpen, setIsInfoOpen] = useState(false);
   const popupRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
@@ -29,7 +28,7 @@ export const Application = ({
     selectApp(appWithCategory);
   };
 
-  const showPopup = isInfoOpen || isHoveringPopup;
+  const showPopup = isInfoOpen;
 
   useEffect(() => {
     if (!showPopup) return;
@@ -92,7 +91,7 @@ export const Application = ({
 
         <button
           ref={buttonRef}
-          className="info-button p-1.5 rounded-full hover:bg-rosePine-highlight-low text-rosePine-muted hover:text-rosePine-text transition-colors"
+          className="info-button p-1.5 cursor-help rounded-full hover:bg-rosePine-highlight-low text-rosePine-muted hover:text-rosePine-text transition-colors"
           onClick={(e) => {
             e.stopPropagation();
             setIsInfoOpen(!isInfoOpen);
@@ -105,10 +104,8 @@ export const Application = ({
         {showPopup && (
           <div
             ref={popupRef}
-            className="absolute right-0 top-full left-0 mt-1 w-96 z-50 rounded-lg bg-rosePine-overlay shadow-lg border border-rosePine-highlight-med transition-opacity duration-200 overflow-hidden"
-            onClick={(e) => e.stopPropagation()} // Stop click propagation to prevent app selection
-            onMouseEnter={() => setIsHoveringPopup(true)}
-            onMouseLeave={() => setIsHoveringPopup(false)}
+            className="absolute cursor-auto right-0 top-full left-0 mt-1 w-96 z-50 rounded-lg bg-rosePine-overlay shadow-lg border border-rosePine-highlight-med transition-opacity duration-200 overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
           >
             <div className="p-4 border-b border-rosePine-highlight-low bg-rosePine-surface">
               <div className="flex items-center">
