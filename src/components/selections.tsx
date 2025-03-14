@@ -16,7 +16,7 @@ export const Selections = () => {
   };
 
   return (
-    <div className="bg-rosePine-surface border-b border-rosePine-highlight-low p-4 mt-4 mr-4 rounded-lg">
+    <div className="bg-rosePine-surface p-4 mr-4 rounded-lg">
       <div className="flex items-center justify-between">
         <h2 className="text-lg font-medium">
           Selected Apps ({selectedApps.length})
@@ -33,9 +33,9 @@ export const Selections = () => {
       </div>
 
       {selectedApps.length > 0 ? (
-        <div className="mt-2 flex flex-wrap gap-2">
+        <div className="mt-2 max-h-[128px] overflow-y-auto pr-1 flex flex-wrap gap-2 custom-scrollbar">
           {selectedApps.map((app) => (
-            <Selection app={app} />
+            <Selection app={app} key={app.id} />
           ))}
         </div>
       ) : (

@@ -10,6 +10,7 @@ import { App } from "@/types";
 
 import { Selections } from "@/components/selections";
 import { Application } from "@/components/application-card";
+import { SearchBar } from "@/components/search-bar";
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -96,19 +97,6 @@ export default function Home() {
           <p className="text-sm text-rosePine-subtle">One click installer</p>
         </div>
 
-        <div className="p-4 relative">
-          <div className="absolute inset-y-0 left-6 flex items-center pointer-events-none">
-            <Search size={16} className="text-rosePine-subtle" />
-          </div>
-          <input
-            type="text"
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full pl-8 py-2 text-sm bg-rosePine-overlay border border-rosePine-highlight-low rounded focus:outline-none focus:border-rosePine-iris"
-            placeholder="Search apps..."
-          />
-        </div>
-
         <nav className="mt-2">
           {Object.keys(filteredApps).map((category) => (
             <button
@@ -129,11 +117,12 @@ export default function Home() {
         </nav>
       </div>
 
-      <div className="flex-1 flex flex-col overflow-hidden gap-4">
+      <div className="flex-1 flex flex-col overflow-hidden gap-4 mt-4">
+        <SearchBar setSearchTerm={setSearchTerm} searchTerm={searchTerm} />
+
         <Selections />
 
         <div className="flex-1 overflow-y-auto p-6 bg-rosePine-surface m-4 mb-0 mt-0 ml-0 rounded-tl-lg">
-          ADD SORTING OPTIONS
           {filteredApps[selectedCategory]?.length > 0 ? (
             <>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
