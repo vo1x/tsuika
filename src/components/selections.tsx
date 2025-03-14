@@ -68,8 +68,21 @@ const Selection = ({ app }: { app: App }) => {
   return (
     <div
       key={app.id}
-      className="bg-rosePine-highlight-med text-rosePine-text px-3 py-1 rounded-full text-sm flex items-center gap-1"
+      className="bg-rosePine-highlight-med text-rosePine-text p-2 rounded-lg text-sm flex items-center gap-2"
     >
+      {app.icon ? (
+        <img
+          src={app.icon}
+          alt=""
+          className="w-6 h-6 rounded-md"
+          aria-hidden="true"
+        />
+      ) : (
+        <div className="w-8 h-8 bg-rosePine-surface rounded-md flex items-center justify-center">
+          <Package size={16} className="text-rosePine-subtle" />
+        </div>
+      )}
+
       <span>{app.name}</span>
       <button
         onClick={() => handleAppDeselect(app)}

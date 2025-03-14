@@ -133,6 +133,7 @@ export default function Home() {
         <Selections />
 
         <div className="flex-1 overflow-y-auto p-6 bg-rosePine-surface m-4 mb-0 mt-0 ml-0 rounded-tl-lg">
+          ADD SORTING OPTIONS
           {filteredApps[selectedCategory]?.length > 0 ? (
             <>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
