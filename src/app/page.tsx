@@ -129,7 +129,7 @@ export default function Home() {
 
         <Selections />
 
-        <div className="flex-1 overflow-y-auto p-6 pl-0 m-4 mb-0 mt-0 ml-0 rounded-tl-lg">
+        <div className="flex-1 overflow-y-auto p-6 pt-0 pl-0 rounded-tl-lg">
           {filteredApps[selectedCategory]?.length > 0 ? (
             <>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
