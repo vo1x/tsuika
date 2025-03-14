@@ -61,7 +61,7 @@ export const Application = ({
       className={`relative cursor-pointer rounded-lg transition-all ${
         isSelected(app.id)
           ? "bg-rosePine-highlight-med border border-rosePine-iris"
-          : "bg-transparent border border-rosePine-highlight-low hover:border-rosePine-highlight-med"
+          : "bg-rosePine-surface border border-rosePine-highlight-low hover:border-rosePine-highlight-med"
       }`}
     >
       <div className="flex items-center p-3">

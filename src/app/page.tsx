@@ -80,14 +80,21 @@ export default function Home() {
     });
 
     setFilteredApps(filtered);
-
-    if (
-      filtered[selectedCategory]?.length === 0 &&
-      Object.keys(filtered).length > 0
-    ) {
-      setSelectedCategory(Object.keys(filtered)[0]);
-    }
   }, [searchTerm, fuse, selectedCategory]);
+
+  useEffect(() => {
+    // Only run this logic when we have search results
+    if (searchTerm.trim()) {
+      // If the current category has no results but other categories do, select the first category with results
+      if (
+        (!filteredApps[selectedCategory] ||
+          filteredApps[selectedCategory].length === 0) &&
+        Object.keys(filteredApps).length > 0
+      ) {
+        setSelectedCategory(Object.keys(filteredApps)[0]);
+      }
+    }
+  }, [filteredApps, selectedCategory, searchTerm]);
 
   return (
     <div className="flex h-screen">
@@ -117,12 +124,12 @@ export default function Home() {
         </nav>
       </div>
 
-      <div className="flex-1 flex flex-col overflow-hidden gap-4 mt-4">
+      <div className="flex-1 flex flex-col overflow-hidden gap-6 m-4 mt-8">
         <SearchBar setSearchTerm={setSearchTerm} searchTerm={searchTerm} />
 
         <Selections />
 
-        <div className="flex-1 overflow-y-auto p-6 bg-rosePine-surface m-4 mb-0 mt-0 ml-0 rounded-tl-lg">
+        <div className="flex-1 overflow-y-auto p-6 pl-0 m-4 mb-0 mt-0 ml-0 rounded-tl-lg">
           {filteredApps[selectedCategory]?.length > 0 ? (
             <>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
