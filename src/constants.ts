@@ -14,6 +14,26 @@ export const applications: ApplicationsData = {
       icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://1password.com/",
     },
     {
+  "id": "makemkv",
+  "choco": "makemkv",
+  "name": "MakeMKV",
+  "link": "https://www.makemkv.com/",
+  "winget": "GuinpinSoft.MakeMKV",
+  "publisher": "GuinpinSoft Inc.",
+  "description": "MakeMKV is a one-click solution to convert video from proprietary disc formats to a free and accessible format.",
+  "icon": "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.makemkv.com/"
+},
+    {
+  "id": "soundbound",
+  "choco": "soundbound",
+  "name": "Soundbound",
+  "link": "https://soundbound.app/",
+  "winget": "Soundbound.Soundbound",
+  "publisher": "Soundbound Inc.",
+  "description": "Soundbound is an advanced audio player and library manager designed for seamless music organization and playback.",
+  "icon": "https://www.google.com/s2/favicons?sz=32&domain_url=https://soundbound.app/"
+},
+    {
       id: "7zip",
       choco: "7zip",
       name: "7-Zip",
