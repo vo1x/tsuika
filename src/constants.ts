@@ -1910,6 +1910,86 @@ export const applications: ApplicationsData = {
     },
   ],
   multimediaTools: [
+  {
+    "id": "amazon-music",
+    "choco": "amazon-music",
+    "name": "Amazon Music",
+    "link": "https://music.amazon.com/",
+    "winget": "Amazon.Music",
+    "publisher": "Amazon.com, Inc.",
+    "description": "Amazon Music allows you to stream and download millions of songs, playlists, and stations.",
+    "icon": "https://www.google.com/s2/favicons?sz=32&domain_url=https://music.amazon.com/"
+  },
+  {
+    "id": "youtube-music",
+    "choco": "youtube-music",
+    "name": "YouTube Music",
+    "link": "https://music.youtube.com/",
+    "winget": "Google.YouTubeMusic",
+    "publisher": "Google LLC",
+    "description": "YouTube Music is a music streaming service offering official songs, albums, playlists, and more.",
+    "icon": "https://www.google.com/s2/favicons?sz=32&domain_url=https://music.youtube.com/"
+  },
+  {
+    "id": "spotify",
+    "choco": "spotify",
+    "name": "Spotify",
+    "link": "https://www.spotify.com/",
+    "winget": "Spotify.Spotify",
+    "publisher": "Spotify AB",
+    "description": "Spotify is a digital music service that gives you access to millions of songs and podcasts.",
+    "icon": "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.spotify.com/"
+  },
+  {
+    "id": "tidal",
+    "choco": "tidal",
+    "name": "TIDAL",
+    "link": "https://tidal.com/",
+    "winget": "TIDAL.TIDAL",
+    "publisher": "TIDAL",
+    "description": "TIDAL is a high-fidelity music streaming platform with lossless audio and exclusive content.",
+    "icon": "https://www.google.com/s2/favicons?sz=32&domain_url=https://tidal.com/"
+  },
+  {
+    "id": "deezer",
+    "choco": "deezer",
+    "name": "Deezer",
+    "link": "https://www.deezer.com/",
+    "winget": "Deezer.Deezer",
+    "publisher": "Deezer",
+    "description": "Deezer lets you play your favorite songs and discover new artists with personalized recommendations.",
+    "icon": "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.deezer.com/"
+  },
+  {
+    "id": "apple-music",
+    "choco": "apple-music",
+    "name": "Apple Music",
+    "link": "https://music.apple.com/",
+    "winget": "Apple.AppleMusic",
+    "publisher": "Apple Inc.",
+    "description": "Apple Music is a music streaming service offering millions of songs, curated playlists, and radio stations.",
+    "icon": "https://www.google.com/s2/favicons?sz=32&domain_url=https://music.apple.com/"
+  },
+  {
+    "id": "pandora",
+    "choco": "pandora",
+    "name": "Pandora",
+    "link": "https://www.pandora.com/",
+    "winget": "Pandora.Pandora",
+    "publisher": "Pandora Media, LLC",
+    "description": "Pandora is a music streaming and discovery platform offering personalized stations and podcasts.",
+    "icon": "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.pandora.com/"
+  },
+  {
+  "id": "potplayer",
+  "choco": "potplayer",
+  "name": "PotPlayer",
+  "link": "https://potplayer.daum.net/",
+  "winget": "Daum.PotPlayer",
+  "publisher": "Kakao Corp.",
+  "description": "PotPlayer is a free multimedia player with advanced customization options and support for various formats.",
+  "icon": "https://www.google.com/s2/favicons?sz=32&domain_url=https://potplayer.daum.net/"
+ },
     {
       id: "aimp",
       choco: "aimp",
@@ -2412,17 +2492,6 @@ export const applications: ApplicationsData = {
       icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.smplayer.info",
     },
     {
-      id: "spotify",
-      choco: "spotify",
-      name: "Spotify",
-      link: "https://www.spotify.com/",
-      winget: "Spotify.Spotify",
-      publisher: "Spotify AB",
-      description:
-        "With Spotify, it\u2019s easy to find the right music or podcast for every moment \u2013 on your phone, your computer, your tablet and more.\nThere are millions of tracks and episodes on Spotify. So whether you\u2019re behind the wheel, working out, partying or relaxing, the right music or podcast is always at your fingertips. Choose what you want to listen to, or let Spotify surprise you.\nYou can also browse through the collections of friends, artists, and celebrities, or create a radio station and just sit back.",
-      icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.spotify.com/",
-    },
-    {
       id: "spotube",
       choco: "spotube",
       name: "Spotube",
@@ -2476,17 +2545,6 @@ export const applications: ApplicationsData = {
       description:
         "TagScanner is a powerful tool for organizing and managing your music collection. It can edit tags of most modern audio formats, supports ID3v1/v2, Vorbis comments, APEv2, WMA and MP4(iTunes) tags.",
       icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.xdlab.ru/en/",
-    },
-    {
-      id: "tidal",
-      choco: "na",
-      name: "Tidal",
-      link: "https://tidal.com/",
-      winget: "9NNCB5BS59PH",
-      publisher: "Tautulli",
-      description:
-        "A Python based monitoring and tracking tool for Plex Media Server.",
-      icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://tidal.com/",
     },
     {
       id: "videomass",
