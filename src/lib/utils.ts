@@ -1,5 +1,6 @@
-import { App } from "@/types";
+import { App, OperatingSystem } from "@/types";
 import { applications } from "@/constants";
+import os from "os";
 
 interface BatchGeneratorOptions {
   selectedApps: Array<App>;
@@ -168,4 +169,13 @@ export const generateAndDownloadInstallScript = (
     scriptContent = generateOSXShellScript(selectedApps);
     if (scriptContent !== "") downloadShellScript(scriptContent);
   }
+};
+
+/**
+ * Detect the client operating system
+ */
+
+export const detectOS = (): OperatingSystem => {
+  const platform = os.platform();
+  return platform === "darwin" ? "osx" : "windows";
 };

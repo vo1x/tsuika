@@ -1,11 +1,11 @@
 "use client";
 
 import Fuse from "fuse.js";
-import { Check, Search } from "lucide-react";
+import { Search } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 
 import { applications } from "@/constants";
-import { useSelectionStore } from "@/stores/selectedAppsStore";
+import { useOSStore } from "@/stores/osStore";
 import { App } from "@/types";
 
 import { Selections } from "@/components/selections";
@@ -19,10 +19,7 @@ export default function Home() {
     Object.keys(applications)[0]
   );
 
-  const selectedApps = useSelectionStore((state) => state.selectedApps);
-  const selectApp = useSelectionStore((state) => state.selectApp);
-  const unselectApp = useSelectionStore((state) => state.unselectApp);
-  const isSelected = useSelectionStore((state) => state.isSelected);
+  const { os, setOperatingSystem } = useOSStore();
 
   const allApps = useMemo(() => {
     const apps: Array<{ id: string; name: string; category: string }> = [];
@@ -49,16 +46,6 @@ export default function Home() {
       }),
     [allApps]
   );
-
-  const handleAppSelect = (app: App, category: string | undefined) => {
-    if (!category) return;
-
-    if (isSelected(app.id)) return unselectApp(app.id);
-
-    const appWithCategory = { ...app, category };
-
-    selectApp(appWithCategory);
-  };
 
   useEffect(() => {
     if (!searchTerm.trim()) {
@@ -101,6 +88,7 @@ export default function Home() {
       <div className="w-64 bg-rosePine-surface border-r border-rosePine-highlight-low overflow-y-auto mr-4">
         <div className="p-4">
           <h1 className="text-2xl font-bold text-rosePine-gold">tsuika</h1>
+
           <p className="text-sm text-rosePine-subtle">One click installer</p>
         </div>
 
@@ -122,6 +110,23 @@ export default function Home() {
             </button>
           ))}
         </nav>
+
+        <div className="p-4 border-t border-rosePine-highlight-low">
+          <span className="block mb-2 text-sm text-rosePine-subtle">
+            Operating System
+          </span>
+          <select
+            name="operatingSystem"
+            defaultValue={os}
+            onChange={(e) =>
+              setOperatingSystem(e.target.value as "windows" | "osx")
+            }
+            className="w-full bg-rosePine-overlay text-rosePine-text border border-rosePine-highlight-low rounded px-3 py-2 focus:outline-none focus:ring-1 focus:ring-rosePine-gold"
+          >
+            <option value="windows">Windows</option>
+            <option value="osx">macOS</option>
+          </select>
+        </div>
       </div>
 
       <div className="flex-1 flex flex-col overflow-hidden gap-6 m-4 mt-8">

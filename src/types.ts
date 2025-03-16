@@ -1,14 +1,14 @@
 export interface App {
   id: string;
   name: string;
-  category?: string;
-  winget?: string;
-  brew?: string;
-  choco?: string;
-  link?: string;
-  icon?: string;
-  description?: string;
-  publisher?: string;
+  category?: string | null;
+  winget?: string | null;
+  brew?: string | null;
+  choco?: string | null;
+  link?: string | null;
+  icon?: string | null;
+  description?: string | null;
+  publisher?: string | null;
 }
 
 export interface ApplicationsData {
@@ -22,3 +22,5 @@ export interface SelectionState {
   clearSelected: () => void;
   isSelected: (appId: string) => boolean;
 }
+
+export type OperatingSystem = "windows" | "osx";

@@ -8,6 +8,7 @@ export const applications: ApplicationsData = {
       name: "1Password",
       link: "https://1password.com/",
       winget: "AgileBits.1Password",
+      brew: "1password",
       publisher: "AgileBits, Inc.",
       description:
         "1Password remembers all your passwords for you, and keeps them safe and secure behind the one password that only you know.",
@@ -19,6 +20,7 @@ export const applications: ApplicationsData = {
       name: "7-Zip",
       link: "https://www.7-zip.org/",
       winget: "7zip.7zip",
+      brew: "p7zip",
       publisher: "Igor Pavlov",
       description:
         "Free and open source file archiver with a high compression ratio.",
@@ -30,6 +32,7 @@ export const applications: ApplicationsData = {
       name: "Advanced Renamer",
       link: "https://www.advancedrenamer.com/",
       winget: "HulubuluSoftware.AdvancedRenamer",
+      brew: null,
       publisher: "Hulubulu Software",
       description:
         "Batch rename files and folders in a snap. Perfect for any kind of file renaming including music and photo files.",
