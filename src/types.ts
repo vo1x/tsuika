@@ -1,7 +1,7 @@
 export interface App {
   id: string;
   name: string;
-  category?: string | null;
+  category: string;
   winget?: string | null;
   brew?: string | null;
   choco?: string | null;
@@ -11,9 +11,7 @@ export interface App {
   publisher?: string | null;
 }
 
-export interface ApplicationsData {
-  [category: string]: App[];
-}
+export type ApplicationsData = Array<App>;
 
 export interface SelectionState {
   selectedApps: App[];

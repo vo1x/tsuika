@@ -23,14 +23,10 @@ echo.
   const appsWithoutWinget: string[] = [];
 
   selectedApps.forEach((app) => {
-    const originalApp =
-      app.category &&
-      applications[app.category]?.find((a: App) => a.id === app.id);
-
-    if (originalApp && originalApp.winget) {
+    if (app && app.winget) {
       appsWithWinget.push(app.name || app.id);
       batchContent += `echo Installing ${app.name || app.id}...\n`;
-      batchContent += `winget install -e --accept-source-agreements --accept-package-agreements --id ${originalApp.winget}\n`;
+      batchContent += `winget install -e --accept-source-agreements --accept-package-agreements --id ${app.winget}\n`;
       batchContent += `if %ERRORLEVEL% NEQ 0 echo Failed to install ${
         app.name || app.id
       }\n`;
@@ -84,14 +80,10 @@ fi
   const appsWithoutHomebrew: string[] = [];
 
   selectedApps.forEach((app) => {
-    const originalApp =
-      app.category &&
-      applications[app.category]?.find((a: App) => a.id === app.id);
-
-    if (originalApp && originalApp.brew) {
+    if (app && app.brew) {
       appsWithHomebrew.push(app.name || app.id);
       shellContent += `echo "Installing ${app.name || app.id}..."\n`;
-      shellContent += `brew install ${originalApp.brew}\n`;
+      shellContent += `brew install ${app.brew}\n`;
       shellContent += `if [ $? -ne 0 ]; then echo "Failed to install ${
         app.name || app.id
       }"; fi\n`;
