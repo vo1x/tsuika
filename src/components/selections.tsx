@@ -5,15 +5,16 @@ import { useSelectionStore } from "@/stores/selectedAppsStore";
 import { generateAndDownloadInstallScript } from "@/lib/utils";
 
 import { X, Package } from "lucide-react";
+import { useOSStore } from "@/stores/osStore";
 
 export const Selections = () => {
   const selectedApps = useSelectionStore((state) => state.selectedApps);
   const clearSelected = useSelectionStore((state) => state.clearSelected);
-
+  const { os } = useOSStore();
   const handleInstallApps = () => {
     generateAndDownloadInstallScript({
       selectedApps: selectedApps,
-      operatingSystem: "windows",
+      operatingSystem: os,
     });
     // add sonner for error handling later
   };
