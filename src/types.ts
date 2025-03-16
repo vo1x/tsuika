@@ -3,6 +3,7 @@ export interface App {
   name: string;
   category?: string;
   winget?: string;
+  brew?: string;
   choco?: string;
   link?: string;
   icon?: string;

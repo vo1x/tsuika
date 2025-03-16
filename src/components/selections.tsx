@@ -2,7 +2,7 @@ import { App } from "@/types";
 
 import { useSelectionStore } from "@/stores/selectedAppsStore";
 
-import { generateAndDownloadBatchFile } from "@/lib/utils";
+import { generateAndDownloadInstallScript } from "@/lib/utils";
 
 import { X, Package } from "lucide-react";
 
@@ -11,7 +11,10 @@ export const Selections = () => {
   const clearSelected = useSelectionStore((state) => state.clearSelected);
 
   const handleInstallApps = () => {
-    generateAndDownloadBatchFile({ selectedApps });
+    generateAndDownloadInstallScript({
+      selectedApps: selectedApps,
+      operatingSystem: "windows",
+    });
     // add sonner for error handling later
   };
 
