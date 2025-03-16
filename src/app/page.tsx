@@ -14,32 +14,41 @@ import { SearchBar } from "@/components/search-bar";
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState<string>("");
-  const [filteredApps, setFilteredApps] = useState<App[]>(applications);
 
-  // Get all available categories from the flat applications array
   const allCategories = useMemo(() => {
     return Array.from(new Set(applications.map((app) => app.category)));
   }, []);
 
+  const { os, setOperatingSystem } = useOSStore();
+
+  const allApps = useMemo(() => {
+    return os === "osx"
+      ? applications.filter(
+          (app) => app.brew !== null && app.brew !== undefined
+        )
+      : applications.filter(
+          (app) => app.winget !== null && app.winget !== undefined
+        );
+  }, [os]);
+
+  const [filteredApps, setFilteredApps] = useState<App[]>(allApps);
   const [selectedCategory, setSelectedCategory] = useState<string>(
     allCategories[0]
   );
 
-  const { os, setOperatingSystem } = useOSStore();
-
   const fuse = useMemo(
     () =>
-      new Fuse(applications, {
+      new Fuse(allApps, {
         keys: ["name", "id", "description"],
         threshold: 0.4,
         ignoreLocation: true,
       }),
-    [applications]
+    [allApps]
   );
 
   useEffect(() => {
     if (!searchTerm.trim()) {
-      setFilteredApps(applications);
+      setFilteredApps(allApps);
       return;
     }
 
@@ -88,7 +97,7 @@ export default function Home() {
 
   return (
     <div className="flex h-screen">
-      <div className="w-64 bg-rosePine-surface border-r border-rosePine-highlight-low overflow-y-auto mr-4">
+      <div className="w-64 bg-rosePine-surface border-r border-rosePine-highlight-low overflow-y-auto mr-4 flex flex-col">
         <div className="p-4">
           <h1 className="text-2xl font-bold text-rosePine-gold">tsuika</h1>
 
@@ -117,7 +126,7 @@ export default function Home() {
           )}
         </nav>
 
-        <div className="p-4 border-t border-rosePine-highlight-low">
+        <div className="p-4 border-t border-rosePine-highlight-low justify-self-end mt-auto">
           <span className="block mb-2 text-sm text-rosePine-subtle">
             Operating System
           </span>
