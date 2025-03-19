@@ -1925,7 +1925,7 @@ export const applications: ApplicationsData = {
     "choco": "youtube-music",
     "name": "YouTube Music",
     "link": "https://music.youtube.com/",
-    "winget": "Google.YouTubeMusic",
+    "winget": "Google.YouTubeMusi",
     "publisher": "Google LLC",
     "description": "YouTube Music is a music streaming service offering official songs, albums, playlists, and more.",
     "icon": "https://www.google.com/s2/favicons?sz=32&domain_url=https://music.youtube.com/"
@@ -1980,16 +1980,6 @@ export const applications: ApplicationsData = {
     "description": "Pandora is a music streaming and discovery platform offering personalized stations and podcasts.",
     "icon": "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.pandora.com/"
   },
-  {
-  "id": "potplayer",
-  "choco": "potplayer",
-  "name": "PotPlayer",
-  "link": "https://potplayer.daum.net/",
-  "winget": "Daum.PotPlayer",
-  "publisher": "Kakao Corp.",
-  "description": "PotPlayer is a free multimedia player with advanced customization options and support for various formats.",
-  "icon": "https://www.google.com/s2/favicons?sz=32&domain_url=https://potplayer.daum.net/"
- },
     {
       id: "aimp",
       choco: "aimp",
@@ -4040,7 +4030,6 @@ export const applications: ApplicationsData = {
         "Powerful multimedia player that supports a variety of different video codecs and formats.",
       icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://potplayer.daum.net/",
     },
-
     {
       id: "zoom",
       choco: "zoom",
