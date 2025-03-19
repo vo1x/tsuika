@@ -1925,7 +1925,7 @@ export const applications: ApplicationsData = {
     "choco": "youtube-music",
     "name": "YouTube Music",
     "link": "https://music.youtube.com/",
-    "winget": "Google.YouTubeMusi",
+    "winget": "Ytmdesktop.Ytmdesktop",
     "publisher": "Google LLC",
     "description": "YouTube Music is a music streaming service offering official songs, albums, playlists, and more.",
     "icon": "https://www.google.com/s2/favicons?sz=32&domain_url=https://music.youtube.com/"
