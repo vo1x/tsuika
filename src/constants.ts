@@ -2092,7 +2092,7 @@ export const applications: ApplicationsData = [
     publisher: "Artem Izmaylov",
     description: "AIMP is a freeware audio player.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.aimp.ru/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "audacity",
@@ -2104,7 +2104,7 @@ export const applications: ApplicationsData = [
     description:
       "Audacity is a free, easy-to-use, multi-track audio editor and recorder for Windows, macOS, GNU/Linux and other operating systems.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.audacityteam.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "blender",
@@ -2116,7 +2116,7 @@ export const applications: ApplicationsData = [
     description:
       "Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, video editing and 2D animation pipeline.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.blender.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "clementine",
@@ -2127,7 +2127,7 @@ export const applications: ApplicationsData = [
     publisher: "Clementine",
     description: "multiplatform music player",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.clementine-player.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "darktable",
@@ -2139,7 +2139,7 @@ export const applications: ApplicationsData = [
     description:
       "Free and open-source photography application software and raw developer.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.darktable.org/install/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "digikam",
@@ -2150,7 +2150,7 @@ export const applications: ApplicationsData = [
     publisher: "The digiKam team",
     description: "Professional Photo Management with the Power of Open Source",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.digikam.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "eartrumpet",
@@ -2161,7 +2161,7 @@ export const applications: ApplicationsData = [
     publisher: "File-New-Project",
     description: "EarTrumpet is a powerful volume control app for Windows",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://eartrumpet.app/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "EqualizerAPO",
@@ -2170,7 +2170,7 @@ export const applications: ApplicationsData = [
     link: "https://sourceforge.net/projects/equalizerapo",
     winget: "na",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://sourceforge.net/projects/equalizerapo",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "ffmpeg",
@@ -2182,7 +2182,7 @@ export const applications: ApplicationsData = [
     description:
       "FFmpeg is a widely-used cross-platform multimedia framework which can process almost all common and many uncommon media formats. It has over 1000 internal components to capture, decode, encode, modify, combine, stream media, and it can make use of dozens of external libraries to provide more capabilities.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://ffmpeg.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "firealpaca",
@@ -2194,7 +2194,7 @@ export const applications: ApplicationsData = [
     description:
       "A web GUI client of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://firealpaca.com/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "flameshot",
@@ -2205,7 +2205,7 @@ export const applications: ApplicationsData = [
     publisher: "flameshot-org",
     description: "Powerful yet simple to use screenshot software.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://flameshot.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "foobar",
@@ -2217,7 +2217,7 @@ export const applications: ApplicationsData = [
     description:
       "foobar2000 is an advanced freeware audio player for the Windows platform.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.foobar2000.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "freecad",
@@ -2228,7 +2228,7 @@ export const applications: ApplicationsData = [
     publisher: "FreeCAD Team",
     description: "A free and opensource multiplatform 3D parametric modeler",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.freecadweb.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "fxsound",
@@ -2239,7 +2239,7 @@ export const applications: ApplicationsData = [
     publisher: "FxSound LLC",
     description: "Amazing sound for everything you listen to",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.fxsound.com/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "gimp",
@@ -2251,7 +2251,7 @@ export const applications: ApplicationsData = [
     description:
       "GIMP is an acronym for GNU Image Manipulation Program. It is a freely distributed program for such tasks as photo retouching, image composition and image authoring. Note: These builds are a work-in-progress. Please proceed with caution because they may be unstable. If a crash does occur, please report it!",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.gimp.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "greenshot",
@@ -2263,7 +2263,7 @@ export const applications: ApplicationsData = [
     description:
       "Greenshot is a screenshot software tool that can be used as an alternative to the Microsoft Snipping Tool. It allows you to create screenshots of a selected region, window or fullscreen. It can also be used to easily annotate, highlight or obfuscate parts of the screenshot.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://getgreenshot.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "handbrake",
@@ -2275,7 +2275,7 @@ export const applications: ApplicationsData = [
     description:
       "HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://handbrake.fr/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "harmonoid",
@@ -2287,7 +2287,7 @@ export const applications: ApplicationsData = [
     description:
       "Plays & manages your music library. Looks beautiful & juicy. Playlists, visuals, synced lyrics, pitch shift, volume boost & more.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://harmonoid.com/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "imageglass",
@@ -2299,7 +2299,7 @@ export const applications: ApplicationsData = [
     description:
       "ImageGlass is a simple picture viewer with which you will be able to display your image collection in a very similar way to the one that Windows provides by default, but with some additional functions.\nThis application will allow you to better manage your pictures thanks to the options it includes and the extension it enables to install for adding more functions and widening its possibilities.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://imageglass.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "imgburn",
@@ -2311,7 +2311,7 @@ export const applications: ApplicationsData = [
     description:
       "With ImgBurn you can burn CDs, DVDs and Blu-ray dics. The software can also read CD and DVD images and copy them. The usage is very simple. Just select the right image and the burning procedure can start.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.imgburn.com/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "inkscape",
@@ -2323,7 +2323,7 @@ export const applications: ApplicationsData = [
     description:
       "Inkscape is a free and open-source vector graphics editor used to create vector images, primarily in Scalable Vector Graphics (SVG) format. Other formats can be imported and exported.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://inkscape.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "itunes",
@@ -2335,7 +2335,7 @@ export const applications: ApplicationsData = [
     description:
       "iTunes is a media player developed by Apple that also can be used to communicate with Apple mobile devices",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.apple.com/itunes/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "jellyfinmediaplayer",
@@ -2346,7 +2346,7 @@ export const applications: ApplicationsData = [
     publisher: "Jellyfin",
     description: "Jellyfin Desktop Client based on Plex Media Player",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://github.com/jellyfin/jellyfin-media-player",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "jellyfinserver",
@@ -2357,7 +2357,7 @@ export const applications: ApplicationsData = [
     publisher: "Jellyfin",
     description: "Jellyfin Server: The Free Software Media System",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://jellyfin.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "klite",
@@ -2369,7 +2369,7 @@ export const applications: ApplicationsData = [
     description:
       "The K-Lite Codec Pack is a collection of DirectShow filters, VFW/ACM codecs, and tools. Codecs and DirectShow filters are needed for encoding and decoding audio and video formats. The K-Lite Codec Pack is designed as a user-friendly solution for playing all your audio and movie files. With the K-Lite Codec Pack you should be able to play all the popular audio and video formats and even several less common formats.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.codecguide.com/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "kdenlive",
@@ -2381,7 +2381,7 @@ export const applications: ApplicationsData = [
     description:
       "Kdenlive is an acronym for KDE Non-Linear Video Editor. It is primarily aimed at the GNU/Linux platform but also works on BSD and MacOS. It is currently being ported to Windows as a GSOC project.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://kdenlive.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "kicad",
@@ -2393,7 +2393,7 @@ export const applications: ApplicationsData = [
     description:
       "KiCad is a free software suite for electronic design automation. It facilitates the design of schematics for electronic circuits and their conversion to PCB designs.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.kicad.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "kodi",
@@ -2405,7 +2405,7 @@ export const applications: ApplicationsData = [
     description:
       "Kodi is a free and feature-rich media center for various operating systems, consoles and TVs. With Kodi you can manage and play movies, photos and music.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://kodi.tv/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "krita",
@@ -2417,7 +2417,7 @@ export const applications: ApplicationsData = [
     description:
       "The Microsoft Visual C++ 2013 Redistributable Package (x86) installs runtime components of Visual C++ Libraries required to run 64-bit applications developed with Visual C++ 2013 on a computer that does not have Visual C++ 2013 installed.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://krita.org/en/features/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "lightshot",
@@ -2428,7 +2428,7 @@ export const applications: ApplicationsData = [
     publisher: "Skillbrains",
     description: "The fastest way to take a customizable screenshot",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://app.prntscr.com/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "mpchc",
@@ -2439,7 +2439,7 @@ export const applications: ApplicationsData = [
     publisher: "迅雷网络技术有限公司",
     description: "Enjoys excitement with professional play",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://github.com/clsid2/mpc-hc/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "ModernFlyouts",
@@ -2451,7 +2451,7 @@ export const applications: ApplicationsData = [
     description:
       "This application will replace the default audio/airplane/brightness flyouts found in Windows shown when the volume or brightness changes or when airplane mode key is pressed with a new modern UI.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://github.com/ModernFlyouts-Community/ModernFlyouts/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "mp3tag",
@@ -2462,7 +2462,7 @@ export const applications: ApplicationsData = [
     publisher: "EasyEDA Inc.",
     description: "An Easy and Powerful Online PCB Design Tool",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.mp3tag.de/en/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "musescore",
@@ -2474,7 +2474,7 @@ export const applications: ApplicationsData = [
     description:
       "Create, play back and print beautiful sheet music with free and easy to use music notation software MuseScore.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://musescore.org/en",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "musicbee",
@@ -2486,7 +2486,7 @@ export const applications: ApplicationsData = [
     description:
       "Quod Libet is a cross-platform audio / music management program. It provides many ways to view your local library, and supports streaming audio and feeds (podcasts, etc.). It has extremely flexible metadata editing and searching capabilities.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://getmusicbee.com/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "nditools",
@@ -2497,7 +2497,7 @@ export const applications: ApplicationsData = [
     publisher: "Cartamundi Digital",
     description: "Fundels software for primary school teachers",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://ndi.video/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "nglide",
@@ -2509,7 +2509,7 @@ export const applications: ApplicationsData = [
     description:
       "The ownCloud Desktop Client is a tool to synchronize files from ownCloud Server with your computer.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.zeus-software.com/downloads/nglide",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "nomacs",
@@ -2521,7 +2521,7 @@ export const applications: ApplicationsData = [
     description:
       "nomacs is a free, open source image viewer, which supports multiple platforms.\nYou can use it for viewing all common image formats including RAW and psd images.\nnomacs is licensed under the GNU General Public License v3 and available for Windows, Linux, FreeBSD, Mac, and OS/2.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://nomacs.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "obs",
@@ -2533,7 +2533,7 @@ export const applications: ApplicationsData = [
     description:
       "Free and open source software for video recording and live streaming.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://obsproject.com/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "openscad",
@@ -2544,7 +2544,7 @@ export const applications: ApplicationsData = [
     publisher: "OpenSCAD",
     description: "OpenSCAD is software for creating solid 3D CAD objects.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.openscad.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "Paintdotnet",
@@ -2556,7 +2556,7 @@ export const applications: ApplicationsData = [
     description:
       "Paint.NET is image and photo editing software for PCs that run Windows",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.getpaint.net/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "plexdesktop",
@@ -2568,7 +2568,7 @@ export const applications: ApplicationsData = [
     description:
       "Plex is a global streaming media service and a client–server media player platform, made by Plex, Inc.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.plex.tv",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "plex",
@@ -2580,7 +2580,7 @@ export const applications: ApplicationsData = [
     description:
       "Plex Media Server helps you organise your media and stream it to your devices.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.plex.tv/your-media/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "qgis",
@@ -2592,7 +2592,7 @@ export const applications: ApplicationsData = [
     description:
       "QGIS is a user-friendly Open Source Geographic Information System (GIS) licensed under the GNU General Public License. QGIS is an official project of the Open Source Geospatial Foundation (OSGeo). It runs on Linux, Unix, Mac OSX, Windows and Android and supports numerous vector, raster, and database formats and functionalities.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://qgis.org/en/site/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "sharex",
@@ -2604,7 +2604,7 @@ export const applications: ApplicationsData = [
     description:
       "ShareX is a lightweight free and open source program that allows you to capture or record any area of your screen and share it with a single press of a key. ShareX offers numerous methods of capture including full screen, monitor, freehand and so much more. It also features plenty of customizable after-capture tasks and supports more than 80 different image, text, and file hosting services, as well as many URL shortening and sharing services.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://getsharex.com/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "Shotcut",
@@ -2615,7 +2615,7 @@ export const applications: ApplicationsData = [
     publisher: "Meltytech, LLC",
     description: "Shotcut is a free, open source, cross-platform video editor.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://shotcut.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "smplayer",
@@ -2627,7 +2627,7 @@ export const applications: ApplicationsData = [
     description:
       "dnSpyEx is a unofficial continuation of the dnSpy project which is a debugger and .NET assembly editor. You can use it to edit and debug assemblies even if you don't have any source code available. Main features: Debug .NET and Unity assemblies, Edit .NET and Unity assemblies, Light and dark themes.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.smplayer.info",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "spotify",
@@ -2639,7 +2639,7 @@ export const applications: ApplicationsData = [
     description:
       "With Spotify, it’s easy to find the right music or podcast for every moment – on your phone, your computer, your tablet and more.\nThere are millions of tracks and episodes on Spotify. So whether you’re behind the wheel, working out, partying or relaxing, the right music or podcast is always at your fingertips. Choose what you want to listen to, or let Spotify surprise you.\nYou can also browse through the collections of friends, artists, and celebrities, or create a radio station and just sit back.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.spotify.com/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "spotube",
@@ -2651,7 +2651,7 @@ export const applications: ApplicationsData = [
     description:
       "Spotube is a Flutter based lightweight spotify client. It utilizes the power of Spotify & Youtube's public API & creates a hazardless, performant & resource friendly User Experience",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://github.com/KRTirtho/spotube",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "strawberry",
@@ -2663,7 +2663,7 @@ export const applications: ApplicationsData = [
     description:
       "Strawberry is a cross-platform music player written in C++, which can also be used to organize smaller and larger music collections.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.strawberrymusicplayer.org/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "stremio",
@@ -2675,7 +2675,7 @@ export const applications: ApplicationsData = [
     description:
       "Stremio is a modern media center that's a one-stop solution for your video entertainment. You discover, watch and organize video content from easy to install addons.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.stremio.com/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "SubtitleEdit",
@@ -2687,7 +2687,7 @@ export const applications: ApplicationsData = [
     description:
       "Subtitle Edit is a free and open source editor for video subtitles.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://github.com/SubtitleEdit/subtitleedit",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "tagscanner",
@@ -2699,7 +2699,7 @@ export const applications: ApplicationsData = [
     description:
       "TagScanner is a powerful tool for organizing and managing your music collection. It can edit tags of most modern audio formats, supports ID3v1/v2, Vorbis comments, APEv2, WMA and MP4(iTunes) tags.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.xdlab.ru/en/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "tidal",
@@ -2711,7 +2711,7 @@ export const applications: ApplicationsData = [
     description:
       "A Python based monitoring and tracking tool for Plex Media Server.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://tidal.com/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "videomass",
@@ -2723,7 +2723,7 @@ export const applications: ApplicationsData = [
     description:
       "Videomass is a free, open source and cross-platform GUI for FFmpeg and youtube-dl / yt-dlp.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://jeanslack.github.io/Videomass/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "vlc",
@@ -2735,7 +2735,7 @@ export const applications: ApplicationsData = [
     description:
       "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.\n\nSimple, fast and powerful\n✓ Plays everything - Files, Discs, Webcams, Devices and Streams.\n✓ Pays most codecs with no codec packs needed - MPEG-2, MPEG-4, H.264, MKV, WebM, WMV, MP3...\n✓ Runs on all platforms - Windows, Linux, Mac OS X, Unix, iOS, Android ...\n✓ Completely Free - no spyware, no ads and no user tracking.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.videolan.org/vlc/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "voicemeeter",
@@ -2747,7 +2747,7 @@ export const applications: ApplicationsData = [
     description:
       "Voicemeeter Banana is an Advanced Audio Mixer Application endowed with Virtual Audio Device used as Virtual I/O to mix and manage any audio sources from or to any audio devices or applications.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://voicemeeter.com/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "VoicemeeterPotato",
@@ -2759,7 +2759,7 @@ export const applications: ApplicationsData = [
     description:
       "Voicemeeter Potato is the ultimate version of our Audio Mixer Application endowed with Virtual Audio Device to mix and manage any audio sources from or to any audio devices or applications. Dedicated to Voicemeeter expert users, Voicemeeter Potato offers Internal FX (Reverb & MultiTap Delay) and External AUX through Send / Return workflow.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://voicemeeter.com/",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "ytdlp",
@@ -2771,7 +2771,7 @@ export const applications: ApplicationsData = [
     description:
       "yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc. The main focus of this project is adding new features and patches while also keeping up to date with the original project.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://github.com/yt-dlp/yt-dlp",
-    category: "multimedia-tools",
+    category: "multimediaTools",
   },
   {
     id: "Aegisub",
@@ -3368,7 +3368,7 @@ export const applications: ApplicationsData = [
     description:
       ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://dotnet.microsoft.com/download/dotnet/3.1",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "windowsnotepad",
@@ -3380,7 +3380,7 @@ export const applications: ApplicationsData = [
     description:
       "A simple, lightweight text editor for Windows that supports plain text files and basic formatting. The Windows app version offers a modernized interface with additional features like tabbed editing.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://apps.microsoft.com/",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "dotnet5",
@@ -3392,7 +3392,7 @@ export const applications: ApplicationsData = [
     description:
       ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://dotnet.microsoft.com/download/dotnet/5.0",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "dotnet6",
@@ -3404,7 +3404,7 @@ export const applications: ApplicationsData = [
     description:
       ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://dotnet.microsoft.com/download/dotnet/6.0",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "dotnet7",
@@ -3416,7 +3416,7 @@ export const applications: ApplicationsData = [
     description:
       ".NET is a free, cross-platform, open-source developer platform for building many different types of applications.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://dotnet.microsoft.com/download/dotnet/7.0",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "dotnet8",
@@ -3428,7 +3428,7 @@ export const applications: ApplicationsData = [
     description:
       "Dida is a powerful to-do & task management app with seamless cloud synchronization across all your devices. Whether you need to schedule an agenda, make memos, share shopping lists, collaborate in a team, or even develop a new habit, Dida is always here to help you get stuff done and keep life on track.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://dotnet.microsoft.com/download/dotnet/8.0",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "dotnet9",
@@ -3440,7 +3440,7 @@ export const applications: ApplicationsData = [
     description:
       "Dida is a powerful to-do & task management app with seamless cloud synchronization across all your devices. Whether you need to schedule an agenda, make memos, share shopping lists, collaborate in a team, or even develop a new habit, Dida is always here to help you get stuff done and keep life on track.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://dotnet.microsoft.com/download/dotnet/9.0",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "autoruns",
@@ -3452,7 +3452,7 @@ export const applications: ApplicationsData = [
     description:
       "This utility shows you what programs are configured to run during system bootup or login",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "azuredatastudio",
@@ -3464,7 +3464,7 @@ export const applications: ApplicationsData = [
     description:
       "Azure Data Studio is a data management tool that enables you to work with SQL Server, Azure SQL DB and SQL DW from Windows, macOS and Linux.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://docs.microsoft.com/sql/azure-data-studio/what-is-azure-data-studio",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "sqlmanagementstudio",
@@ -3476,7 +3476,7 @@ export const applications: ApplicationsData = [
     description:
       "SQL Server Management Studio (SSMS) is an integrated environment for managing any SQL infrastructure, from SQL Server to Azure SQL Database. SSMS provides tools to configure, monitor, and administer instances of SQL Server and databases. Use SSMS to deploy, monitor, and upgrade the data-tier components used by your applications, and build queries and scripts.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "nuget",
@@ -3488,7 +3488,7 @@ export const applications: ApplicationsData = [
     description:
       "LingDys 4 - Gir hjelp i lese- og skriveopplaeringen, dekker ulike behov, bidrar til oekt digital kompetanse.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.nuget.org/",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "onedrive",
@@ -3500,7 +3500,7 @@ export const applications: ApplicationsData = [
     description:
       "Save your files and photos to OneDrive and access them from any device, anywhere.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://onedrive.live.com/",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "powerautomate",
@@ -3511,7 +3511,7 @@ export const applications: ApplicationsData = [
     publisher: "Prowise",
     description: "The presenter software from Prowise.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.microsoft.com/en-us/power-platform/products/power-automate",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "powerbi",
@@ -3522,7 +3522,7 @@ export const applications: ApplicationsData = [
     publisher: "Prowise",
     description: "The presenter software from Prowise.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://www.microsoft.com/en-us/power-platform/products/power-bi/",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "powershell",
@@ -3534,7 +3534,7 @@ export const applications: ApplicationsData = [
     description:
       "PowerShell is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models.\nIt includes a command-line shell, an associated scripting language and a framework for processing cmdlets.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://github.com/PowerShell/PowerShell",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "powertoys",
@@ -3546,7 +3546,7 @@ export const applications: ApplicationsData = [
     description:
       "Microsoft PowerToys is a set of utilities for power users to tune and streamline their Windows experience for greater productivity. Inspired by the Windows 95 era PowerToys project, this reboot provides power users with ways to squeeze more efficiency out of the Windows 10 shell and customize it for individual workflows.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://github.com/microsoft/PowerToys",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "rdcman",
@@ -3558,7 +3558,7 @@ export const applications: ApplicationsData = [
     description:
       "Free to download, free to play, online version of the Pokémon Trading Card Game",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://learn.microsoft.com/en-us/sysinternals/downloads/rdcman",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "processmonitor",
@@ -3570,7 +3570,7 @@ export const applications: ApplicationsData = [
     description:
       "Process Monitor is an advanced monitoring tool for Windows that shows real-time file system, Registry and process/thread activity",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://docs.microsoft.com/en-us/sysinternals/downloads/procmon",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "tcpview",
@@ -3582,7 +3582,7 @@ export const applications: ApplicationsData = [
     description:
       "TCPView is a Windows program that will show you detailed listings of all TCP and UDP endpoints on your system, including the local and remote addresses and state of TCP connections.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "vc2015_32",
@@ -3594,7 +3594,7 @@ export const applications: ApplicationsData = [
     description:
       "Identity V is NetEase's first survival horror game. With a gothic art style, mysterious storylines and exciting 1vs4 gameplay, Identity V will bring you a breathtaking experience. You will enter the game as detective first, who receives a mysterious letter being invited to investigate an abandoned manor and search for a missing girl. As you get closer to the truth, you find something horrifying...",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "vc2015_64",
@@ -3606,7 +3606,7 @@ export const applications: ApplicationsData = [
     description:
       "Identity V is NetEase's first survival horror game. With a gothic art style, mysterious storylines and exciting 1vs4 gameplay, Identity V will bring you a breathtaking experience. You will enter the game as detective first, who receives a mysterious letter being invited to investigate an abandoned manor and search for a missing girl. As you get closer to the truth, you find something horrifying...",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "terminal",
@@ -3618,7 +3618,7 @@ export const applications: ApplicationsData = [
     description:
       "Windows Terminal is a modern terminal application for users of command line tools and shells like Command Prompt, PowerShell, and Windows Subsystem for Linux (WSL).\n Its main features include multiple tabs, panes, Unicode and UTF-8 character support, a GPU accelerated text rendering engine, and the ability to create your own themes and customize text, colors, backgrounds, and shortcut key bindings.",
     icon: "https://www.google.com/s2/favicons?sz=32&domain_url=https://aka.ms/terminal",
-    category: "microsoft-tools",
+    category: "microsoftTools",
   },
   {
     id: "arc",

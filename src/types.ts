@@ -1,18 +1,17 @@
 export interface App {
   id: string;
   name: string;
-  category?: string;
-  winget?: string;
-  choco?: string;
-  link?: string;
-  icon?: string;
-  description?: string;
-  publisher?: string;
+  category: string;
+  winget?: string | null;
+  brew?: string | null;
+  choco?: string | null;
+  link?: string | null;
+  icon?: string | null;
+  description?: string | null;
+  publisher?: string | null;
 }
 
-export interface ApplicationsData {
-  [category: string]: App[];
-}
+export type ApplicationsData = Array<App>;
 
 export interface SelectionState {
   selectedApps: App[];
@@ -21,3 +20,5 @@ export interface SelectionState {
   clearSelected: () => void;
   isSelected: (appId: string) => boolean;
 }
+
+export type OperatingSystem = "windows" | "osx";
