@@ -1,7 +1,10 @@
 # Tsuika - Windows App Installer
 
 Tsuika is a modern, user-friendly application that simplifies the process of installing your favorite Windows applications.
-I built this because I find myself nuking my Windows installation every 6 months as if it's some sacred ritual. Rather than manually hunting down installers, I created this webapp to streamline the whole process.
+
+![Screenshot](https://github.com/vo1x/tsuika/blob/main/public/Siteshot.png)
+
+> I built this because I find myself nuking my Windows installation every 6 months as if it's some sacred ritual. Rather than manually hunting down installers, I created this webapp to streamline the whole process.
 
 ## Features
 
